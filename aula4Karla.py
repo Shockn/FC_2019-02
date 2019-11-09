@@ -1,3 +1,6 @@
+'''Fazer um programa para ler as notas de uma turma de 40 alunos, 
+imprimir a qtd dos alunos ACIMA da média da turma.'''
+
 notas=[]
 soma=0
 cont=0
