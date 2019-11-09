@@ -1,3 +1,5 @@
+'''Fazer um programa para ler dados positivos para dois vetores e imprimir a interseção desses vetores'''
+
 vet1=[]
 vet2=[]
 inter=[]
