@@ -1,3 +1,5 @@
+'''Criar lista com dados únicos. Sem conhecimento prévio do número de registros a ser feito.'''
+
 lista=[]    #LISTA QUE VAI CONTER AS NOTAS
 cont=2      #CONTADOR PARA PRINTAR A POSIÇÃO DAS NOTAS A PARTIR DA 1°
 
