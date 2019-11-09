@@ -1,3 +1,5 @@
+'''Fazer um programa para ler os dados para uma matriz 3x3 e somar os elementos (valores) PARES da matriz.'''
+
 m=[]
 l=3
 c=3
