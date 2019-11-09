@@ -1,3 +1,6 @@
+'''Fazer um programa para acrescentar um elemento em uma lista se for digitado a letra “A”, remover se “R”, imprimir se “I” e 
+sair se “F”.'''
+
 lista=[]
 
 op=input('\nDigite "A"(adicionar), "R"(remover), "I"(imprimir) ou "F"(finalizar): ').upper()
