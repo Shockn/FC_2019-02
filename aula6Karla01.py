@@ -1,3 +1,6 @@
+'''Fazer um módulo para receber dois valores inteiros e retornar a soma dos multiplosde 7 MENOS a soma dos multiplos 
+de 13 ENTRE esses valores.'''
+
 def somaMult(x, y):
     soma=0
     for i in range(x+1, y):
