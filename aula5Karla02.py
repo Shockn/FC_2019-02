@@ -1,3 +1,5 @@
+'''Fazer um programa para ler os dados para uma matriz 3x3 e somar os elementos da diagonal principal.'''
+
 m=[]
 l=3
 c=3
