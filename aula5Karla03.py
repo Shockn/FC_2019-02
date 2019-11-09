@@ -1,3 +1,5 @@
+'''Fazer um programa para imprimir a soma das linhas das matrizes e a soma total dos  elementos PARES da matriz.'''
+
 m=[]
 l=3
 c=3
