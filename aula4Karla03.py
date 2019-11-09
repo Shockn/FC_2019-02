@@ -1,3 +1,6 @@
+'''Fazer um programa para ler 10 dados para um vetor e imprimir a soma das notas dos elementos pares menos a nota dos elementos 
+de índice ímpar'''
+
 lista=[]        #LISTA QUE RECEBE AS NOTAS
 for i in range(0, 10):  #DEFININDO O NÚMERO DE NOTAS DA LISTA
     while True:         #LOOP PARA O TRATAMENTO DE ERRO (QUANDO UM INPUT FOR INSERIDO ERRADO, O FOR NÃO VAI PARA O PRÓXIMO i, E SIM CONTINUA NO MESMO ATÉ SER COLOCADO UM INPUT VÁLIDO).
