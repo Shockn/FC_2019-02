@@ -1,3 +1,5 @@
+'''Refazer o programa anterior usando o método append.'''
+
 soma=0
 lista=[]
 
