@@ -1,0 +1,4 @@
+yuri 10.0
+pedro 6.3
+israely 0.0
+gustavo 8.3
