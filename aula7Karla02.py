@@ -5,10 +5,10 @@ def prodImpar(n):
     if n==1:
         return(1)
     else:
-        return(n*prodImpar(n-2))
+        return((n-2)*prodImpar(n-2))
 
 try:
-    x=int(input('Digite um número: '))
-    print('O produto dos n valores são: {:1d}.'.format(prodImpar(x)))
+    num=int(input('Digite um número impar: '))
+    print('O produto dos número impares menores que N é: {:1d}'.format(prodImpar(num)))
 except:
-    print('Valor inválido.')
+    print('Número inválido.')
