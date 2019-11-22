@@ -2,20 +2,18 @@
 deve fazer o MÍNIMO de interações possíveis.'''
 
 n=int(input('Digite um número: '))
+l=[]
 
-for i in range(3, n+1):
+for i in range(2, n+1):
     primo=True
-    for j in range(i+1, n):
+    for j in range(2, i):
         if i%j==0:
             primo=False
         else:
-            primo=True
+            pass
+    if primo==True:
+        l.append(i)
 
-if primo==True:
-    print('É primo.')
-else:
-    print('Não é primo.')
-
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
-            'W.I.P.'
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+print('\nNúmeros primos até {:1d}:'.format(n))
+for i in range(len(l)):
+    print(l[i], end=' ')
