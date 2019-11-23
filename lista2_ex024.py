@@ -26,7 +26,8 @@ def primos(sequencia):
         if primo==True:
             nPrimos.append(i)
     nPrimos.pop(0)
-    nPrimos.pop(1)
+    nPrimos.pop(0)
+    nPrimos.pop(0)
     return(nPrimos)
     
 #CHAMA AS FUNÇÕES
